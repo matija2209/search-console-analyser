@@ -44,8 +44,8 @@ The tool expects the data to be organized in the following structure within the 
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>  # Replace <repository_url> with the actual URL
-    cd <repository_name>     # Replace <repository_name> with the cloned directory name
+    git clone https://github.com/matija2209/search-console-analyser  # Replace <repository_url> with the actual URL
+    cd search-console-analyser     # Replace <repository_name> with the cloned directory name
     ```
 
 2.  **Create a virtual environment:**
@@ -104,3 +104,14 @@ The tool provides the following outputs:
 ## License
 
 This project is licensed under the MIT License 
+
+One-liner to create a new repository and push the code to it:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+gh repo create search-console-analyser --public --source=. --remote=origin
+git push -u origin main
+```
