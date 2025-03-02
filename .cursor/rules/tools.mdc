@@ -1,0 +1,8 @@
+---
+description: What tools to use
+globs: *.py
+---
+use python pandas to create summaries for each client
+
+make a summary for aggreagated figures (average cliks, impresion, max, low, ...)
+

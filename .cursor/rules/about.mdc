@@ -1,0 +1,23 @@
+---
+description: What does software do
+globs: *.py
+---
+We analyse data from Google's Search Console for multiple domains.
+
+The data is provided in a way that Google gives in folder
+
+Folder name is domain property.
+
+Inside each folder you have multiple csv files:
+- Countries.csv (columns Country,Clicks,Impressions,CTR,Position)
+- Dates.csv (columns Date,Clicks,Impressions,CTR,Position)
+- Devices.csv (columns Device,Clicks,Impressions,CTR,Position)
+- Filters.csv (columns Filter,Value)
+- Pages.csv (columns Top pages,Clicks,Impressions,CTR,Position)
+- Search appearance.csv (Search Appearance,Clicks,Impressions,CTR,Position)
+- Queries.csv (Top queries,Clicks,Impressions,CTR,Position)
+
+
+So example location of file is
+
+`data/denis-dohr-glas-gebaeudereinigung.de-Performance-on-Search-2025-03-02/Countries.csv`
